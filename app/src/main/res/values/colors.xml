@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFADAD</color>
-    <color name="colorPrimaryDark">#C78787</color>
-    <color name="colorAccent">#FFDBDB</color>
-    <color name="colorContrast">#FFFFFF</color>
+    <color name="peach"> #FFADAD </color>
+    <color name="aqua"> #6AF2F0 </color>
+    <color name="lime"> #B6D464 </color>
+    <color name="orange"> #FF9D5C </color>
+    <color name="white"> #FFFFFF </color>
+    <color name="defaultCol"> @color/peach </color>
+
+    <array name="bgColors">
+        <item>@color/peach</item>
+        <item>@color/aqua</item>
+        <item>@color/lime</item>
+        <item>@color/orange</item>
+    </array>
+
 </resources>

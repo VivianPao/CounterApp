@@ -8,10 +8,11 @@
 
 
     <LinearLayout
+        android:id="@+id/base"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#FFADAD">
+        android:background="@color/defaultCol">
 
         <ImageButton
             android:id="@+id/incr_btn"
@@ -20,18 +21,19 @@
             android:layout_weight="2"
             android:src="@drawable/up_arrow"
             android:scaleType="fitCenter"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/defaultCol"/>
 
         <EditText
             android:id="@+id/count_text"
-            android:inputType="number"
+            android:inputType="numberSigned"
             android:background="@null"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
-            android:textColor="#FFFFFF"
-            android:textSize="100sp"/>
+            android:textColor="@color/white"
+            android:textSize="100sp"
+            android:imeOptions="actionDone"/>
 
         <ImageButton
             android:id="@+id/decr_btn"
@@ -40,7 +42,7 @@
             android:layout_weight="2"
             android:src="@drawable/down_arrow"
             android:scaleType="fitCenter"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/defaultCol"/>
 
     </LinearLayout>
 
